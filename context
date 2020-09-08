@@ -1,0 +1,20 @@
+{
+	"@context": {
+		"@vocab": "_:",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"al": "https://mkdf.github.io/context/activity-log#",
+		"Key": "al:Key",
+		"dataset": "al:Dataset",
+		"POST": "al:POST",
+		"method": {
+			"@id": "al:httpRequestMethod",
+			"@type": "@id"
+		},
+		"_timestamp": "al:timestamp",
+		"_timestamp_year": "al:timestamp",
+		"_timestamp_day": "al:timestamp_day",
+		"_timestamp_hour": "al:timestamp_hour",
+		"_timestamp_minute": "al:timestamp_minute",
+		"_timestamp_second": "al:timestamp_second"
+	}
+}
